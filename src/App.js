@@ -9,7 +9,7 @@ export default class App extends Component {
 
   changeCategory = (category) => {
     this.setState({
-      currentCategory: category.name
+      currentCategory: category.name,
     });
     this.getProducts(category.id);
   };
